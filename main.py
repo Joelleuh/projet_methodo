@@ -12,7 +12,7 @@ eleve1 = [14,11,12,13]
 eleve2 = [10,8,6,17]
 eleve3 = [7,5,15]
 
-class_all = [eleve1,eleve2,eleve3]
+class_all = [eleve1, eleve2, eleve3]
 
 CA, CM = class_average_median(class_all)
 print(CA, CM)
