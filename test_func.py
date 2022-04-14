@@ -17,6 +17,6 @@ def test_class_average_median():
     l2d = [[0,10,20], [18,20,22]]
     expected_average = 15
     expected_median = 15
-    expected_result = (15,15)
+    expected_result = (10,10)
     result = class_average_median(l2d)
     assert result == expected_result
